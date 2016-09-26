@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A073A11D93A4970096B6E6 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A073A01D93A4970096B6E6 /* Entity.swift */; };
 		04A72BC11D9290A100958E29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A72BC01D9290A100958E29 /* AppDelegate.swift */; };
 		04A72BC31D9290A100958E29 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04A72BC21D9290A100958E29 /* GameScene.sks */; };
 		04A72BC51D9290A100958E29 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A72BC41D9290A100958E29 /* GameScene.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04A073A01D93A4970096B6E6 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		04A72BBD1D9290A000958E29 /* DemoSpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSpriteKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A72BC01D9290A100958E29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A72BC21D9290A100958E29 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				04A72BCB1D9290A100958E29 /* Assets.xcassets */,
 				04A72BCD1D9290A100958E29 /* LaunchScreen.storyboard */,
 				04A72BD01D9290A100958E29 /* Info.plist */,
+				04A073A01D93A4970096B6E6 /* Entity.swift */,
 			);
 			path = DemoSpriteKit;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A073A11D93A4970096B6E6 /* Entity.swift in Sources */,
 				04A72BC51D9290A100958E29 /* GameScene.swift in Sources */,
 				04A72BC71D9290A100958E29 /* GameViewController.swift in Sources */,
 				04A72BC11D9290A100958E29 /* AppDelegate.swift in Sources */,
@@ -296,6 +300,7 @@
 				04A72BD51D9290A100958E29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
